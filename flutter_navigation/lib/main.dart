@@ -47,10 +47,6 @@ class _ExampleState extends State<Example> {
       style: optionStyle,
     ),
     Text(
-      'Likes',
-      style: optionStyle,
-    ),
-    Text(
       'Search',
       style: optionStyle,
     ),
