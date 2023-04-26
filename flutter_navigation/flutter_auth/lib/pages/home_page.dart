@@ -14,11 +14,14 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      extendBodyBehindAppBar: true,
       appBar: AppBar(
+        backgroundColor: Colors.transparent,
+        elevation: 0,
         actions: [
           IconButton(
             onPressed: signUserOUt, 
-            icon: Icon(Icons.logout),
+            icon: Icon(Icons.logout, color:Colors.black,),
             )
           ],
         ),
